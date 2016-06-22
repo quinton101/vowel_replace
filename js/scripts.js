@@ -1,8 +1,8 @@
 // FILL THIS OUT
 // name of exercise
 // name of student
-var project = "Leap Year";
-var myName = "John Franti";
+var project = "{example}";
+var myName = "{student}";
 
 
 $(document).ready(function() {
