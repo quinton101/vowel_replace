@@ -15,9 +15,10 @@ $(document).ready(function() {
   // page business logic
   $("#input").submit(function(event) {
     event.preventDefault();
+    var userInput = $("#input_text").val();
     $(".my_result").show();
 
-    // alert("Submission Successful");
+    // alert(userInput);
   });
 
   $("#reset").click(function() {
